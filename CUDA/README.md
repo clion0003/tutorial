@@ -39,7 +39,9 @@ https://developer.nvidia.com/educators/existing-courses#2
 
 在cuda目录下的，0_simple/matrixMul, vectorAdd, simpleStreams, simpleTemplates, simpleZeroCopy, UnifiedMemoryStreams, simpleMultiCopy
 
-**阶段目标：**基本理解GPU的运算方式，能用CUDA写出一些简单的运算，了解GPU和CPU之间memory的拷贝方式，了解GPU的global memory，shared memory的区别和使用方式，了解CUDA stream。
+**阶段目标：**
+
+基本理解GPU的运算方式，能用CUDA写出一些简单的运算，了解GPU和CPU之间memory的拷贝方式，了解GPU的global memory，shared memory的区别和使用方式，了解CUDA stream。
 
 ## 2.深入了解CUDA
 **学习文档：**
@@ -56,7 +58,9 @@ http://docs.nvidia.com/cuda/cuda-c-best-practices-guide/index.html
 
 注：以上书单都是通过具体的例子来阐述GPU优化的方式，阅读一本即可，内容大同小异。
 
-**推荐源码阅读：** 3_Imaging和4_Finace目录下的所有例子，可以挑自己感兴趣的算法进行选取和阅读。
+**推荐源码阅读：** 
+
+3_Imaging和4_Finace目录下的所有例子，可以挑自己感兴趣的算法进行选取和阅读。
 
 **阶段目标：**
 
@@ -78,9 +82,12 @@ http://docs.nvidia.com/cuda/cuda-c-best-practices-guide/index.html
 **推荐源码阅读：**
 
 0_simple/matrixMulCUBLAS, 7_CUDALibraries下部分代码
+
 Caffe源码（主要是用了Cublas和CuDNN两个库）
 
-**阶段目标：**学会阅读NVIDIA关于加速库的文档，学会使用这些库（尤其是Cublas和CuDNN）的API调用，能够比较速度
+**阶段目标：**
+
+学会阅读NVIDIA关于加速库的文档，学会使用这些库（尤其是Cublas和CuDNN）的API调用，能够比较速度
 
 ## 4.学会使用工具分析CUDA程序性能
 **学习文档：**
