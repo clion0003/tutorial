@@ -3,19 +3,27 @@
 > CUDA is a parallel computing platform and application programming interface (API) model created by Nvidia. -[ 维基百科 ](https://en.wikipedia.org/wiki/CUDA)
 
 CUDA是使用**NVIDIA**显卡进行并行运算的一种方式，目前经常被用于加速深度学习。
+
 CUDA安装相关文档：http://docs.nvidia.com/cuda/cuda-quick-start-guide/index.html。
+
 在CUDA安装完毕以后，CUDA会生成CUDA samples，这些是CUDA的一些例子，windows默认目录在C:\ProgramData\NVIDIA Corporation\CUDA Samples。ubuntu和mac下设置完环境变量以后，可以使用cuda-install-samples-8.0.sh(8.0版本的cuda)来安装例子。
+
 > Caffe is a deep learning framework, originally developed at UC Berkeley. It is open source, under a BSD license. It is written in C++, with a Python interface. -[ 维基百科 ](https://en.wikipedia.org/wiki/Caffe_(software))
 
 caffe是目前比较火的**深度学习加速框架**，主要采用了CUDA进行加速。
+
 caffe官网：http://caffe.berkeleyvision.org/
+
 caffe安装：http://caffe.berkeleyvision.org/installation.html
+
 建议在ubuntu下使用caffe，因为可以直接apt-get：sudo apt install caffe-cuda
 
 ##  1.初学CUDA
 **学习文档：**
+
 http://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html
-:   主要介绍了CUDA的编程模式，和基本的GPU架构
+
+   主要介绍了CUDA的编程模式，和基本的GPU架构
 
 **推荐书单：**
 大规模并行处理器编程实战(Programming Massively Parallel Processors: A Hands-on Approach) 1-6章
